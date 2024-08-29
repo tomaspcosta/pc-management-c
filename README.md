@@ -1,4 +1,4 @@
 
-# My first code project
+# C Console Application
 
-A simple C console application to manage an organization pc inventory.
+My first code project, a simple C console application to manage an organization pc inventory.
