@@ -1,6 +1,6 @@
 # Console PC Management Application
 
-This project is a console-based PC management application written in C. It allows users to manage a list of PCs, including adding, editing, searching, deleting, and storing data in a binary file. It also supports categorizing and sorting PCs by purchase date.
+This project (my first coding project ever) is a console-based PC management application written in C. It allows users to manage a list of PCs, including adding, editing, searching, deleting, and storing data in a binary file. It also supports categorizing and sorting PCs by purchase date.
 
 ## Project Structure
 
