@@ -1,20 +1,44 @@
-# Console PC Management Application
+#   Console PC Management Application
 
-This project (my first coding project ever) is a console-based PC management application written in C. It allows users to manage a list of PCs, including adding, editing, searching, deleting, and storing data in a binary file. It also supports categorizing and sorting PCs by purchase date.
+##   Table of Contents
 
-## Project Structure
+1.  [Project Description](#project-description)
+2.  [Technologies Used](#technologies-used)
+3.  [Features](#features)
 
-The repository contains the following file:
+##   1. Project Description
 
-- **`console_app.c`**: The main source code of the application.
+A console-based application written in C for managing a list of personal computers (PCs). It allows users to register, edit, display, delete, and store PC records in a binary file. Additional features include category filtering, sorting by purchase date, and calculating the total value of all PCs. This project demonstrates basic data structures, file handling, and user interaction via a command-line interface.
 
-## Features
+##   2. Technologies Used
 
-- **Add PC**: Input details for a PC, including brand, model, GPU, CPU, serial number, purchase date, RAM, disk space, and price. The PC type is categorized as Desktop, Portable, or Server.
-- **Display PCs**: View all entered PCs with detailed information.
-- **Display by Category**: List PCs by category (Desktop, Portable, or Server).
-- **Remove PC**: Delete a PC record by its registration number.
-- **Save PCs**: Save the list of PCs to a binary file (`pc.bin`).
-- **Read and Show PCs**: Read and display the PCs stored in the binary file.
-- **Sort PCs**: Sort PCs by purchase date in ascending or descending order, save the sorted list to a binary file, and display it.
-- **Calculate Total Value**: Calculate and display the total value of all registered PCs.
+* C (Standard C Library)
+* Binary file handling (`fopen`, `fread`, `fwrite`)
+* Struct-based data modeling
+* Console I/O (`scanf`, `printf`)
+
+##   3. Features
+
+* **Add PC**  
+  Register a new PC with details including brand, model, GPU, CPU, serial number, purchase date, RAM, disk space, and price. Categorize the PC as Desktop, Portable, or Server.
+
+* **Display All PCs**  
+  Show all registered PCs with full details.
+
+* **Display PCs by Category**  
+  View PCs filtered by category: Desktop, Portable, or Server.
+
+* **Remove PC**  
+  Delete a PC using its registration number.
+
+* **Save PCs to File**  
+  Store the current list of PCs into a binary file (`pc.bin`).
+
+* **Read and Display from File**  
+  Load and display PCs saved in the binary file.
+
+* **Sort PCs by Purchase Date**  
+  Sort PCs by their purchase date in ascending or descending order. The sorted list can be saved and displayed.
+
+* **Calculate Total Value**  
+  Calculate and display the total combined value of all registered PCs.
